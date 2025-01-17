@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-xgx9n%vy2v=)unvp#3j_(qss(@wut1$+be5b!6en-h#r4%r8yi
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "8000-ajgreaves-blog-lesson-pl-lfv6kgfdws.us2.codeanyapp.com",
-    '.herokuapp.com'
+    ".herokuapp.com",
     ]
 
 
@@ -40,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog', # Add the blog app to the list of installed apps'
+    'blog',
 ]
 
 MIDDLEWARE = [
